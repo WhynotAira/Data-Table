@@ -1,0 +1,53 @@
+body{
+    background-color: aquamarine;
+}
+
+input{
+    outline: none;
+    padding: 5px;
+    margin: 10px;
+    font-family: bold;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(5, 159, 97);
+    font-family: bold;
+    margin: 10px;
+    font-weight: 600;
+    
+}
+/* Add these styles to your App.css or another stylesheet */
+
+/* Style for the resizable column title */
+.react-resizable-handle {
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    cursor: col-resize;
+    background: transparent;
+  }
+  
+  /* Style for the column lines */
+  .react-data-table-component {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .react-data-table-component th,
+  .react-data-table-component td {
+    border: 1px solid #000000; /* Adjust border style and color as needed */
+    padding: 8px;
+  }
+  
+  /* Optional: Hover effect for the resizable handle */
+  .react-resizable-handle:hover {
+    background-color: #000000; /* Adjust color as needed */
+  }
+  
